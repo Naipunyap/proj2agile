@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+int vertices;
+    scanf("%d ",&vertices);
+    if(vertices==0){
+        printf("-1\n");
+        
+    }
+    int s;
+    if(vertices==1){
+        scanf("%d ",&s);
+        printf("%d ",s);
+        
+    }
+    int arr[vertices][vertices];
+    for(int i=0;i<vertices;i++){
+        for(int j=0;j<vertices;j++){
+            arr[i][j]=0;
+        }
+    }
+    int vertex;
+    while(1){
+        int edge1,edge2;
+        int count=scanf("%d%d ",&edge1,&edge2);
+        if(count==1){
+            vertex=edge1;
+            break;
+        }s
+        else{
+            arr[edge1-1][edge2-1]=1;
+            
+        }
+    }
+    int arrx[vetices];
+    int count=0;
+    for(int k=0;k<vertices;k++){
+        if(arr[vertex-1][k]=0){
+            
+        }
+    }
+    
+      
+}
